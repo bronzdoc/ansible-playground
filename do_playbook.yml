@@ -1,0 +1,16 @@
+---
+- name: "digital ocean server setup"
+  hosts: do-server
+  remote_user: autoweb
+  pre_tasks:
+    - shell: echo "configuring do server"
+      register: info
+    - debug: var=info
+
+  roles:
+    - { role: common, file_name: do.doc.txt }
+    - digital_ocean
+
+  post_tasks:
+    - shell: echo 'finish configuring do server'
+...

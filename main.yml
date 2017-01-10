@@ -1,0 +1,4 @@
+---
+ - include: do_playbook.yml
+ - include: localhost_playbook.yml
+...

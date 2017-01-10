@@ -1,0 +1,4 @@
+---
+- name: "create simple file"
+  command: touch ~/"{{ file_name }}"
+...

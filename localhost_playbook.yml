@@ -1,0 +1,7 @@
+---
+- name: "localhost setup"
+  hosts: localhost
+  remote_user: doc
+  roles:
+    -  { role: common, file_name: localhost.doc.txt }
+...
