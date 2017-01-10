@@ -3,7 +3,7 @@
   hosts: do-server
   remote_user: autoweb
   pre_tasks:
-    - shell: echo "configuring do server"
+    - shell: echo "configuring {{ provider }} server"
       register: info
     - debug: var=info
 
