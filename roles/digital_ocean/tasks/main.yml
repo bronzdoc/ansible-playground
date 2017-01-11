@@ -2,4 +2,9 @@
 - name: "notify sshd"
   ping:
   notify: "restart sshd"
+
+- template:
+    src: templates/test.conf.j2
+    dest: ~/test.conf
+    mode: "0644"
 ...

@@ -1,12 +1,12 @@
 # Ansible playground
 
 ## Learn:
-- [] Task
-- [] Playbook
-- [] Variables
-- [] Templates
-- [] Roles
-- [] Inventory
-- [] Jinja2 filters
-- [] Jinja2 tests
-- [] modules
+- [x] Task
+- [x] Playbook
+- [x] Variables
+- [x] Templates
+- [x] Roles
+- [x] Inventory
+- [x] Jinja2 filters
+- [x] Jinja2 tests
+- [x] modules
